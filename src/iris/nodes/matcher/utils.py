@@ -211,5 +211,7 @@ def hamming_distance(
         if Hdist < match_dist:
             match_dist = Hdist
             match_rot = current_shift
+            
+    print("Test")
 
     return match_dist, match_rot
